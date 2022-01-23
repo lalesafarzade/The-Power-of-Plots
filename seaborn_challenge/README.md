@@ -3,7 +3,7 @@
 
 What good is data without a good plot to tell the story?
 
-![Laboratory](matplotlib_challenge/images/Laboratory.jpg)
+![Laboratory](images/Laboratory.jpg)
 
 While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specializes in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
@@ -22,7 +22,7 @@ As a senior data analyst at the company, you've been given access to the complet
 
 ### Summary Statistics
 
-![summary_table](matplotlib_challenge/images/summary_table.png)
+![summary_table](images/summary_table.png)
 
 
 * Create two summary statistics tables:
@@ -32,7 +32,7 @@ As a senior data analyst at the company, you've been given access to the complet
 
 ### Bar and Pie Charts
 
-![bar_plot_pandas](matplotlib_challenge/images/bar_plot_pandas.png)
+![bar_plot_pandas](images/bar_plot_pandas.png)
 
 * Generate two bar plots:
 
@@ -40,7 +40,7 @@ As a senior data analyst at the company, you've been given access to the complet
     * Create the first bar plot using Pandas's `DataFrame.plot()` method.
     * Create the second bar plot using Matplotlib's `pyplot` methods.
 
-![pie_pandas_plot](matplotlib_challenge/images/pie_pandas_plot.png)
+![pie_pandas_plot](images/pie_pandas_plot.png)
 
 * Generate two pie plots:
 
@@ -50,7 +50,7 @@ As a senior data analyst at the company, you've been given access to the complet
 
 ### Quartiles, Outliers and Boxplots
 
-![box_plot](matplotlib_challenge/images/box_plot.png)
+![box_plot](images/box_plot.png)
 * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
     * Start by creating a grouped DataFrame that shows the last (greatest) time point for each mouse, then merge this grouped DataFrame with the original cleaned DataFrame.
@@ -63,17 +63,17 @@ As a senior data analyst at the company, you've been given access to the complet
 
 ### Line and Scatter Plots
 
-![line_plot](matplotlib_challenge/images/line_plot.png)
+![line_plot](images/line_plot.png)
 
 * Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
 
-![scatter_plot](matplotlib_challenge/images/scatter_plot.png)
+![scatter_plot](images/scatter_plot.png)
 
 * Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
 
 ### Correlation and Regression
 
-![regression_plot](matplotlib_challenge/images/regression_plot.png)
+![regression_plot](images/regression_plot.png)
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 ### Final Analysis
