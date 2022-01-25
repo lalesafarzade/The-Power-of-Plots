@@ -1,7 +1,7 @@
 # The-Power-of-Plots
 ## Background
 
-![mice](images/mice.jpg)
+![mice](matplotlib_challenge/images/mice.jpg)
 
 What good is data without a good plot to tell the story?
 
